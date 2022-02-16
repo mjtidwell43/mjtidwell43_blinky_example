@@ -5,8 +5,8 @@ DigitalOut myled(LED1);
 int main() {
   while(1) {
     myled = 1;
-    wait(1);
+    wait(1.5);
     myled = 0;
-    wait(1);
+    wait(1.5);
   }
 }
